@@ -1,0 +1,6 @@
+
+<h3 (click)="openModal()">{{restaurant.name}}</h3>
+<p>{{restaurant.description}}</p>
+<p>Cuisine: {{restaurant.cuisine}}</p>
+<p>Rating: <app-rating [imageFull]="'star-full.png'" [imageEmpty]="'star-empty.png'" [countFull]="restaurant.rating"></app-rating></p>
+<p>Price: <app-rating [imageFull]="'coin-full.png'" [imageEmpty]="'coin-empty.png'" [countFull]="restaurant.price"></app-rating></p>
